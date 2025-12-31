@@ -27,3 +27,9 @@ $color-border: $gray-light !default;
         "components",
         "utilities"
 ;
+
+@media (min-width: 52em) {
+  .right-lg ul li {
+    display: inline-block !important;
+  }
+}
